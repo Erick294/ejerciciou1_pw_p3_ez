@@ -17,11 +17,17 @@
         <img id="pokemon" class="oculto" src="../img/pnegro.jpg" alt="No se encontro la imagen">
 
         <nav id="botones">
-            <button onclick="incorrecto()">keldeo-ordinary</button>
-            <button onclick="incorrecto()">drilbur</button>
-            <button onclick="incorrecto()">ninjask</button>
-            <button onclick="correcto()">excadrill</button>
-            <button onclick="resetear()">Reiniciar el juego</button>
+            <button id="inicial" onclick="incorrecto()">keldeo-ordinary</button>
+
+            <div id="intermedio">
+                <button onclick="incorrecto()">drilbur</button>
+                <button onclick="incorrecto()">ninjask</button>
+            </div>
+
+            <div id="final">
+                <button onclick="correcto()">excadrill</button>
+                <button onclick="resetear()">Reiniciar el juego</button>
+            </div>
         </nav>
 
         <label id="mensaje" for=""></label>

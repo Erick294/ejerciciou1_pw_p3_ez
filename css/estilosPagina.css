@@ -43,3 +43,18 @@ button{
     width: 345px;   
 }
 
+#intermedio{
+    display: inline;
+}
+
+#inicial{
+    margin-left: 160px;
+}
+
+#final{
+    display: grid;
+    text-align: center;
+    width: fit-content;
+    margin-left: 160px;
+}
+
