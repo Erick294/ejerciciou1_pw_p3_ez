@@ -1,0 +1,45 @@
+#mensaje{
+    background-color: blue;
+    border-style: solid;
+    font-family: 'Times New Roman', Times, serif;
+    width: fit-content;
+    padding: 5px;
+    text-align: center;
+    display: none;
+    margin: 5px;
+}
+
+section{
+    text-align: center;
+    display:inline-block;
+    align-items: center;
+}
+
+body{
+    background-color: cadetblue;
+    text-align: center;
+    display:block;
+}
+
+img{
+    width: 240px;
+    height: 260px;
+    display: block;
+    margin: 20px auto;
+}
+
+#botones{
+    border-radius: 10%;
+    background-color: gray;
+    display: grid;
+    padding: 5px;
+    width: fit-content;
+    text-align: center;
+}
+
+button{
+    padding: 5px;
+    margin: 5px;
+    width: 345px;   
+}
+
